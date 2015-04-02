@@ -1,0 +1,26 @@
+{
+  "name": "LoveTab",
+  "description": "2015白色情人節限定款",
+  "version": "0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": "script-src 'self' https://wwww.mapbox.com/*; object-src 'self'",
+  "permissions": [
+    "geolocation",
+    "cookies",
+    "<all_urls>",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["assets/site.js"]
+
+  },
+  "icons": {
+    "16": "love.png",
+    "48": "love.png",
+    "128": "love.png"
+  },
+  "manifest_version": 2
+}
